@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#title-Hearder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+   position: relative;
+   background-image: linear-gradient(to right top, #3f82cb, #2077dd, #2168ea, #4554f2, #6d33f2);
+   color: whitesmoke;
+   font-size: 30px;
+   padding: 12px;
+}
+.divOne{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+    margin-top: 20px;
+    height: auto;
+    width: 50%;
+
+}
+#Menu{
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right bottom, #ceb0ee, #c2aeee, #b5adee, #a7abed, #99aaeb, #93a4ea, #8d9dea, #8897e9, #9188e7, #9e76e0, #ae62d4, #be47c4);
+    text-align: center;
+}
+
+#Menu:hover{
+    box-shadow: 0px 5px 15px black;
+    transform: translate(15px,-5px);
+    color: whitesmoke;
+}
+#Tooltip{
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right bottom, #ceb0ee, #c2aeee, #b5adee, #a7abed, #99aaeb, #93a4ea, #8d9dea, #8897e9, #9188e7, #9e76e0, #ae62d4, #be47c4);
+    text-align: center;
+}
+#Tooltip:hover{
+    box-shadow: 0px 5px 15px black;
+    transform: translate(15px,-5px);
+    color: whitesmoke;
+}
+#Switch-Button{
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right bottom, #ceb0ee, #c2aeee, #b5adee, #a7abed, #99aaeb, #93a4ea, #8d9dea, #8897e9, #9188e7, #9e76e0, #ae62d4, #be47c4);
+    text-align: center;
+}
+#Switch-Button:hover{
+    box-shadow: 0px 5px 15px black;
+    transform: translate(15px,-5px);
+    color: whitesmoke;
+}
+#Login-Form{
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right bottom, #ceb0ee, #c2aeee, #b5adee, #a7abed, #99aaeb, #93a4ea, #8d9dea, #8897e9, #9188e7, #9e76e0, #ae62d4, #be47c4);
+    text-align: center;
+}
+#Login-Form:hover{
+    box-shadow: 0px 5px 15px black;
+    transform: translate(15px,-5px);
+    color: whitesmoke;
+}
+#Flow-Chart{
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right bottom, #ceb0ee, #c2aeee, #b5adee, #a7abed, #99aaeb, #93a4ea, #8d9dea, #8897e9, #9188e7, #9e76e0, #ae62d4, #be47c4);
+    text-align: center;
+}
+#Flow-Chart:hover{
+    box-shadow: 0px 5px 15px black;
+    transform: translate(15px,-5px);
+    color: whitesmoke;
+}
+#Image-3D{
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right bottom, #ceb0ee, #c2aeee, #b5adee, #a7abed, #99aaeb, #93a4ea, #8d9dea, #8897e9, #9188e7, #9e76e0, #ae62d4, #be47c4);
+    text-align: center;
+}
+#Image-3D:hover{
+    box-shadow: 0px 5px 15px black;
+    transform: translate(15px,-5px);
+    color: whitesmoke;
+}
+#Check-List{
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right bottom, #ceb0ee, #c2aeee, #b5adee, #a7abed, #99aaeb, #93a4ea, #8d9dea, #8897e9, #9188e7, #9e76e0, #ae62d4, #be47c4);
+    text-align: center;
+}
+#Check-List:hover{
+    box-shadow: 0px 5px 15px black;
+    transform: translate(15px,-5px);
+    color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    transition: .3s all;
+}
+
+
