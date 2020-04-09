@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.divOne{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    text-align: left !important; 
+    text-transform: lowercase;
+    
+}
+.divTwo{
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 3px;
+}
+.divOne{
+    text-align: center;
+}
+a{
+    text-decoration: none; /* đây là thuộc tính làm mất đi dòng line của text*/
+    text-transform: capitalize;
+   
+}
