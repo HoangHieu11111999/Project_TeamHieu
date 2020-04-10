@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.menu{
+    width: 960px;
+    height: 40px;
+    background-image: linear-gradient(to right bottom, #aa7dc0, #9d82c7, #8e87cd, #7f8cd1, #6e90d3, #6a90db, #6790e2, #6390ea, #7d89f6, #a07dfc, #c76bf9, #ed4fed);
+    margin: 50px    auto;
+}
+ul.menu-item > li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+ul.menu-item > li >  a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0px 15px 0px 15px;
+    line-height: 40px;
+    display: block;
+    transition: ease-in .3s;
+    -moz-transition: ease-in .3s;
+    -webkit-transition: ease-in .3s;
+}
+ul.menu-item > li > a:hover{
+    background-color: yellow;
+    color: red;
+}
+ul.menu-item > li:hover > ul#sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: ease-out .5s;
+    -moz-transition: ease-out .5s;
+    -webkit-transition: ease-out .5s;
+}
+ul#sub-menu{
+    width: 200px;
+    background-image: linear-gradient(to right bottom, #aa7dc0, #9d82c7, #8e87cd, #7f8cd1, #6e90d3, #6a90db, #6790e2, #6390ea, #7d89f6, #a07dfc, #c76bf9, #ed4fed);
+    opacity: 0;
+    visibility: hidden;
+    list-style: none;
+    position: absolute;
+}
+ul#sub-menu > li > a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    border-top: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 8px;
+    transition: ease-in .3s;
+    -moz-transition: ease-in .3s;
+    -webkit-transition: ease-in .3s;
+
+}
+ul#sub-menu > li > a:hover{
+    background-color: yellow;
+    color: red;
+}
+li#master-menu{
+    position: relative;
+}
+li#master-menu > ul#sub-menu-detail{
+    position: absolute;
+    left: 200px;
+    list-style: none;
+    background-image: linear-gradient(to right bottom, #aa7dc0, #9d82c7, #8e87cd, #7f8cd1, #6e90d3, #6a90db, #6790e2, #6390ea, #7d89f6, #a07dfc, #c76bf9, #ed4fed);
+    top: 0px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+}
+li#master-menu > ul#sub-menu-detail > li > a{
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    text-indent: 8px;
+    border-top: 1px solid #ccc;
+    transition: ease-in .3s;
+    -moz-transition: ease-in .3s;
+    -webkit-transition: ease-in .3s;
+    color: whitesmoke;
+}
+li#master-menu:hover > ul#sub-menu-detail{
+    opacity: 1;
+    visibility: visible;
+    transition: ease-out 1s;
+    -moz-transition: ease-out 1s;
+    -webkit-transition: ease-out 1s;
+}
+li#master-menu > ul#sub-menu-detail > li:hover > a{
+    background-color: yellow;
+    color: red;
+}
