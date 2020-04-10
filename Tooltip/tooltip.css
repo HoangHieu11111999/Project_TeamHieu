@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to left top, #284c07, #004731, #003d51, #002e59, #271943);
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: transparent ;
+    outline: none;
+    font-size: 40px;
+    transition: .3s all;
+    box-shadow: 0px 5px 15px #000;
+    position: relative;
+    cursor: pointer;
+
+}
+button:active{
+    transform: translate(-10px,-5px) !important;
+}
+button:nth-child(1){
+    border: 2px solid #ff0000;
+    color: #ff0000;
+}
+button:nth-child(2){
+    border: 2px solid #00ff00;
+    color: #00ff00;
+}
+button:nth-child(1):hover{
+    background-color: #ff0000;
+    color: #000;
+    transform: translateY(-15px);
+    box-shadow: 0px 15px 15px #000;
+
+}
+button:nth-child(2):hover{
+    background-color: #00ff00;
+    color: #000;
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 15px #000;
+    
+}
+button:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    top: -0%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .5s all  cubic-bezier(0.68, -0.75, 0.265, 1.55);
+}
+button:before{
+    opacity: 0;
+    transition: .5s all cubic-bezier(0.68, -0.75, 0.265, 1.55);
+}
+button:nth-child(1):after{
+    content: '';
+    border-top: 8px solid #ff0000;
+ 
+}
+button:nth-child(2):after{
+    content: '';
+    border-top: 8px solid #00ff00;
+
+}
+button:nth-child(1):before{
+    content: attr(data-content);
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    width: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #ff0000;
+    padding: 12px;
+    box-sizing: border-box;
+    background: transparent;
+    color: #ff0000;
+    border-radius: 10px;
+}
+button:nth-child(2):before{
+    content: attr(data-content);
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    width: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #00ff00;
+    padding: 12px;
+    box-sizing: border-box;
+    background: transparent;
+    color: #00ff00;
+    border-radius: 10px;
+}
+button:hover:before{
+    opacity: 1;
+    top: -70%;
+}
+button:hover:after{
+    opacity: 1;
+    top: -44%;
+}
